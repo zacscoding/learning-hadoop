@@ -1,0 +1,10 @@
+ext {
+    hadoopVersion = '3.2.0'
+}
+
+dependencyManagement {
+    dependencies {
+        dependency "org.apache.hadoop:hadoop-client:${hadoopVersion}"
+        dependency "org.apache.hadoop:hadoop-minicluster:${hadoopVersion}"
+    }
+}

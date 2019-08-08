@@ -1,0 +1,7 @@
+bootJar.enabled = false
+jar.enabled = true
+
+dependencies {
+    compile 'org.apache.hadoop:hadoop-client'
+    compile 'org.apache.hadoop:hadoop-minicluster'
+}

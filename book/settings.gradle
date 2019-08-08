@@ -1,0 +1,3 @@
+rootProject.name = 'learning-hadoop'
+include 'ch2'
+
